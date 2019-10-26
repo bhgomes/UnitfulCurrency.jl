@@ -1,0 +1,7 @@
+name = "UnitfulCurrency"
+uuid = "f5cc5b76-f814-11e9-291c-a1ea2b8c31c6"
+authors = ["bhgomes <bhgomes.github@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
