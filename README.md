@@ -4,7 +4,7 @@
 
 [![Stable Docs](https://img.shields.io/badge/docs-stable-blue.svg)](https://bhgomes.github.io/UnitfulCurrency.jl/stable)
 [![Latest Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://bhgomes.github.io/UnitfulCurrency.jl/latest)
-[![Travis Build Status](https://travis-ci.com/bhgomes/CCXT.jl.svg?branch=master)](https://travis-ci.com/bhgomes/UnitfulCurrency.jl)
+[![Travis Build Status](https://travis-ci.com/bhgomes/UnitfulCurrency.jl.svg?branch=master)](https://travis-ci.com/bhgomes/UnitfulCurrency.jl)
 
 _Currencies as Units_
 
