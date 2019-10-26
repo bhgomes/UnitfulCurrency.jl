@@ -41,8 +41,6 @@
 @currencyunit AD AsianDragon
 @currencyunit ADA Cardano
 @currencyunit ADB adbank
-@currencyunit ADC Androidchain
-@currencyunit ADC AudioCoin
 @currencyunit ADF AdFlexToken
 @currencyunit ADH AdHive
 @currencyunit ADI Aditus
@@ -53,7 +51,6 @@
 @currencyunit ADS Adshares
 @currencyunit ADT adToken
 @currencyunit ADV Advance
-@currencyunit ADV2 AdevPlus2.0
 @currencyunit ADVP AdevPlus
 @currencyunit ADX AdEx
 @currencyunit ADZ Adzcoin
@@ -139,7 +136,6 @@
 @currencyunit ANT Aragon
 @currencyunit ANTE TRONbet
 @currencyunit ANTY AnimalityCoin
-@currencyunit AOA Aurora
 @currencyunit AOG smARTOFGIVING
 @currencyunit APC AlphaCoin
 @currencyunit APEIR APEIRON
@@ -201,8 +197,6 @@
 @currencyunit ATR AsterionSpace
 @currencyunit ATS Authorship
 @currencyunit ATT AfricaTradingChain
-@currencyunit ATX ArtexCoin
-@currencyunit ATX Aston
 @currencyunit AU AurumCoin
 @currencyunit AUC Auctus
 @currencyunit AUN Authoreon
@@ -213,7 +207,6 @@
 @currencyunit AUSC Auscoin
 @currencyunit AUTO Cube
 @currencyunit AUX Auxilium
-@currencyunit AVA Travala.com
 @currencyunit AVH AnimationVisionCash
 @currencyunit AVINOC AVINOC
 @currencyunit AVT Aventus
@@ -230,7 +223,6 @@
 @currencyunit B2G Bitcoiin
 @currencyunit B2N Bitcoin2network
 @currencyunit B2X SegWit2x
-@currencyunit B@ Bankcoin
 @currencyunit BAAS BaaSid
 @currencyunit BAIC BAIC
 @currencyunit BAK BaconCoin
@@ -240,7 +232,6 @@
 @currencyunit BAS BitAsean
 @currencyunit BASH LuckChain
 @currencyunit BAT BasicAttentionToken
-@currencyunit BAT Batcoin
 @currencyunit BAX BABB
 @currencyunit BAXS BoxAxis
 @currencyunit BAY BitBay
@@ -295,8 +286,6 @@
 @currencyunit BEE BeeToken
 @currencyunit BEET BeetleCoin
 @currencyunit BELA Belacoin
-@currencyunit BEN BEN
-@currencyunit BEN BitCoen
 @currencyunit BENGO BENGOSHICOIN
 @currencyunit BENJA Benjacoin
 @currencyunit BENZ Benz
@@ -320,8 +309,6 @@
 @currencyunit BGG BgogoToken
 @currencyunit BGR Bongger
 @currencyunit BGT BGT
-@currencyunit BGX BGX
-@currencyunit BGX BitcoinGenX
 @currencyunit BHIG BuckHathCoin
 @currencyunit BHP BlockchainofHashPower
 @currencyunit BHPC BHPCash
@@ -371,16 +358,13 @@
 @currencyunit BLK BlackCoin
 @currencyunit BLN Bolenum
 @currencyunit BLO Blok
-@currencyunit BLOC Bloc.Money
-@currencyunit BLOC Blockcloud
-@currencyunit BLOC Blockcloud[IOU]
 @currencyunit BLOCK Blocknet
 @currencyunit BLOK BlockClick
 @currencyunit BLRY BillaryCoin
 @currencyunit BLS BLISS
 @currencyunit BLST Ballast
 @currencyunit BLT Bloom
-@currencyunit BLTG Block-Logic
+@currencyunit BLTG BlockLogic
 @currencyunit BLU Bluecoin
 @currencyunit BLUE BlueProtocol
 @currencyunit BLUR BlurNetwork
@@ -395,7 +379,6 @@
 @currencyunit BNANA BananaToken
 @currencyunit BNB BinanceCoin
 @currencyunit BNC Bionic
-@currencyunit BND Blocknode
 @currencyunit BNFT BlockchainBenefits
 @currencyunit BNK Bankera
 @currencyunit BNL BusinessChain
@@ -403,10 +386,9 @@
 @currencyunit BNT BancorNetworkToken
 @currencyunit BNTY Bounty0x
 @currencyunit BOAT BOAT
-@currencyunit BOB Bob'sRepair
 @currencyunit BOC BingoCoin
 @currencyunit BOCAI BOCAI
-@currencyunit BOE Bodhi[ETH]
+@currencyunit BOE BodhiETH
 @currencyunit BOID Boid
 @currencyunit BOLI Bolivarcoin
 @currencyunit BOLT Bolt
@@ -444,7 +426,6 @@
 @currencyunit BRZC Breezecoin
 @currencyunit BRZX BraziliexToken
 @currencyunit BSC BowsCoin
-@currencyunit BSD BitSend
 @currencyunit BSH BitcoinStash
 @currencyunit BSHN Bitnewcoin
 @currencyunit BSM Bitsum
@@ -455,7 +436,7 @@
 @currencyunit BSTK BlockchainSourceToken
 @currencyunit BSTN BitStation
 @currencyunit BSTX Blastx
-@currencyunit BSTY GlobalBoost-Y
+@currencyunit BSTY GlobalBoostY
 @currencyunit BSV BitcoinSV
 @currencyunit BSVG BITCOINSVGOLD
 @currencyunit BSX Bitspace
@@ -485,15 +466,12 @@
 @currencyunit BTF BitcoinFaith
 @currencyunit BTG BitcoinGold
 @currencyunit BTGN BitreMining
-@currencyunit BTH BitcoinHot
-@currencyunit BTH Bithereum
 @currencyunit BTI BitcoinInstant
 @currencyunit BTK BitcoinToken
 @currencyunit BTL Bitlong
 @currencyunit BTM Bytom
 @currencyunit BTMC BitMinerChain
 @currencyunit BTMX BitmaxToken
-@currencyunit BTN BitNewChain
 @currencyunit BTNT BitNautic
 @currencyunit BTO Bottos
 @currencyunit BTOR Bittorium
@@ -535,7 +513,7 @@
 @currencyunit BXT BitTokens
 @currencyunit BYC Bytecent
 @currencyunit BYTC BytechCoin
-@currencyunit BZ Bit-ZToken
+@currencyunit BZ BitZToken
 @currencyunit BZE BZEdge
 @currencyunit BZKY Bizkey
 @currencyunit BZL BZLCoin
@@ -580,14 +558,10 @@
 @currencyunit CCCX ClipperCoinCapital
 @currencyunit CCKK StrapdownChain
 @currencyunit CCL CyClean
-@currencyunit CCN Cannacoin
-@currencyunit CCN Customcontractnetwork
 @currencyunit CCO Ccore
 @currencyunit CCOS CrowdCoinage
 @currencyunit CCP CryptoCoinPay
 @currencyunit CCRB CryptoCarbon
-@currencyunit CCT ClapClapToken
-@currencyunit CCT CrystalClear
 @currencyunit CCTC cctcoin
 @currencyunit CCX Conceal
 @currencyunit CDCC CDCC
@@ -597,8 +571,6 @@
 @currencyunit CDR CommunicationDevelopmentResourcesToken
 @currencyunit CDS CloudNodes
 @currencyunit CDT Blox
-@currencyunit CDX CDXNetwork
-@currencyunit CDX CODEXToken
 @currencyunit CDY BitcoinCandy
 @currencyunit CDZC CryptoDezireCash
 @currencyunit CEC ConservationofEnergyChain
@@ -640,7 +612,7 @@
 @currencyunit CHT CountinghouseFund
 @currencyunit CHTC CryptoHashTankCoin
 @currencyunit CHX Own
-@currencyunit CIC Cloud-InsuranceChain
+@currencyunit CIC CloudInsuranceChain
 @currencyunit CICC CAICACoin
 @currencyunit CIF CryptoImprovementFund
 @currencyunit CIPH CipherCoin
@@ -681,8 +653,6 @@
 @currencyunit CNUS CoinUs
 @currencyunit CNX Cryptonex
 @currencyunit CNYT CNYTether
-@currencyunit CNZ CoinzoToken
-@currencyunit CNZ CryptoNationZ
 @currencyunit CO2 Climatecoin
 @currencyunit COA Volcanomae
 @currencyunit COB Cobinhood
@@ -828,19 +798,15 @@
 @currencyunit DAX DAEX
 @currencyunit DAXT DigitalAssetExchangeToken
 @currencyunit DAXX Daxxcoin
-@currencyunit DAY Chronologic
-@currencyunit DAY DAY
 @currencyunit DB dininb
 @currencyunit DBC DeepBrainChain
 @currencyunit DBET DecentBet
-@currencyunit DBIX DubaiCoin-DBIX
+@currencyunit DBIX DubaiCoinDBIX
 @currencyunit DBLK DataOnBlock
 @currencyunit DBT Datbit
 @currencyunit DBTC Debitcoin
 @currencyunit DBX DBX
 @currencyunit DC DucatCoin
-@currencyunit DCA DCAex
-@currencyunit DCA DecentralizedCurrencyAssets
 @currencyunit DCC DistributedCreditChain
 @currencyunit DCN Dentacoin
 @currencyunit DCNT Decenturion
@@ -878,8 +844,6 @@
 @currencyunit DFC DigiFinexCash
 @currencyunit DFL DFlowToken
 @currencyunit DFN DfinityIOU
-@currencyunit DFS DFSCoin
-@currencyunit DFS DigitalFantasySports
 @currencyunit DGB DigiByte
 @currencyunit DGC Digitalcoin
 @currencyunit DGD DigixDAO
@@ -989,7 +953,7 @@
 @currencyunit DXP DaxxPlatinum
 @currencyunit DXT Datawallet
 @currencyunit DYN Dynamic
-@currencyunit DZC D-ZONECOIN
+@currencyunit DZC DZONECOIN
 @currencyunit EAC Earthcoin
 @currencyunit EAG EACoin
 @currencyunit EAGLE EagleCoin
@@ -1006,9 +970,8 @@
 @currencyunit ECA Electra
 @currencyunit ECASH EthereumCash
 @currencyunit ECC ECC
-@currencyunit ECHT e-Chat
+@currencyunit ECHT eChat
 @currencyunit ECOB Ecobit
-@currencyunit ECOL Ecological.ling
 @currencyunit ECOM Omnitude
 @currencyunit ECOREAL EcorealEstate
 @currencyunit ECP EthereumCashPro
@@ -1031,7 +994,6 @@
 @currencyunit EEE Elementh
 @currencyunit EETH EOSETH
 @currencyunit EFL ElectronicGulden
-@currencyunit EFX Effect.AI
 @currencyunit EFYT Ergo
 @currencyunit EGAS ETHGAS
 @currencyunit EGCC Engine
@@ -1050,7 +1012,6 @@
 @currencyunit ELAC ELACoin
 @currencyunit ELD ElectrumDark
 @currencyunit ELE Elementrem
-@currencyunit ELEC Electrify.Asia
 @currencyunit ELF aelf
 @currencyunit ELITE EthereumLite
 @currencyunit ELIX Elixir
@@ -1079,8 +1040,6 @@
 @currencyunit ENG Enigma
 @currencyunit ENGT EngagementToken
 @currencyunit ENJ EnjinCoin
-@currencyunit ENK Enkidu
-@currencyunit ENK Enkronos
 @currencyunit ENRG Energycoin
 @currencyunit ENSA ENSATplken
 @currencyunit ENTRC EnterCoin
@@ -1112,7 +1071,6 @@
 @currencyunit EREAL eREAL
 @currencyunit ERO Eroscoin
 @currencyunit ERT Eristica
-@currencyunit ERT Esports.com
 @currencyunit ERY Eryllium
 @currencyunit ERZ EarnzCoin
 @currencyunit ESA ESportsAllianceChain
@@ -1157,8 +1115,6 @@
 @currencyunit EUM Elitium
 @currencyunit EUNO EUNO
 @currencyunit EURS STASISEURS
-@currencyunit EUSD EOSUSD
-@currencyunit EUSD eUSD
 @currencyunit EVA EvaToken
 @currencyunit EVI Evimeria
 @currencyunit EVIL EvilCoin
@@ -1213,8 +1169,6 @@
 @currencyunit FDZ Friendz
 @currencyunit FES FESchain
 @currencyunit FET FetchAI
-@currencyunit FEX FEXToken
-@currencyunit FEX FIDEXExchange
 @currencyunit FGP FingerPrint
 @currencyunit FI FInsurToken
 @currencyunit FID Fidelium
@@ -1244,8 +1198,6 @@
 @currencyunit FNB FNBprotocol
 @currencyunit FND FundRequest
 @currencyunit FNKOS FNKOS
-@currencyunit FNL Finlocale
-@currencyunit FNL FunnelToken
 @currencyunit FNTB FinTab
 @currencyunit FNX FinanceXtoken
 @currencyunit FOAM FOAM
@@ -1277,8 +1229,6 @@
 @currencyunit FSS FSSCoin
 @currencyunit FST Fastcoin
 @currencyunit FSTX FrostbyteCoin
-@currencyunit FT FCoinToken
-@currencyunit FT FabricToken
 @currencyunit FTB Feitebi
 @currencyunit FTBC Film&TelevisionBlockchain
 @currencyunit FTC Feathercoin
@@ -1361,8 +1311,6 @@
 @currencyunit GJC GlobalJobcoin
 @currencyunit GLA GladiusToken
 @currencyunit GLB Globycoin
-@currencyunit GLC GlobalCoin
-@currencyunit GLC Goldcoin
 @currencyunit GLDR GolderCoin
 @currencyunit GLPN GlobalPayNet
 @currencyunit GLT GlobalToken
@@ -1382,12 +1330,10 @@
 @currencyunit GOAT GoatCash
 @currencyunit GOD BitcoinGod
 @currencyunit GODZ Godzillion
-@currencyunit GOLD GOLD
-@currencyunit GOLD TRONGOLD
 @currencyunit GOLOS Golos
 @currencyunit GOOC GooCoin
 @currencyunit GOOD Goodomy
-@currencyunit GOSS GOSSIP-Coin
+@currencyunit GOSS GOSSIPCoin
 @currencyunit GP GoldPieces
 @currencyunit GPKR GoldPoker
 @currencyunit GPL GoldPressedLatinum
@@ -1471,16 +1417,9 @@
 @currencyunit HEAL Etheal
 @currencyunit HEAT HEAT
 @currencyunit HEDG HedgeTrade
-@currencyunit HELP GoHelpFund
-@currencyunit HELP Helpico
 @currencyunit HEMP Hempora
-@currencyunit HER HeraCoin
-@currencyunit HER HeroNodeToken
 @currencyunit HERC Hercules
-@currencyunit HERO HeroToken
-@currencyunit HERO SovereignHero
 @currencyunit HET HavEtherToken
-@currencyunit HEX HealthEvolutiononX.blockchain
 @currencyunit HEY HealthBeautyChain
 @currencyunit HGO HireGo
 @currencyunit HGT HelloGold
@@ -1578,7 +1517,6 @@
 @currencyunit ICOS ICOS
 @currencyunit ICR InterCrone
 @currencyunit ICST IndividualContentandSkillToken
-@currencyunit ICT ICOCalendar.Today
 @currencyunit ICX ICON
 @currencyunit IDA IDA
 @currencyunit IDG Indigen
@@ -1598,8 +1536,6 @@
 @currencyunit IFT InvestFeed
 @currencyunit IFTC InternetFintechCoin
 @currencyunit IFV INFLIV
-@currencyunit IFX IFX
-@currencyunit IFX Infinex
 @currencyunit IG IGToken
 @currencyunit IGG IGGold
 @currencyunit IGNIS Ignis
@@ -1649,7 +1585,7 @@
 @currencyunit INVE InterValue
 @currencyunit INX InMax
 @currencyunit INXT Internxt
-@currencyunit IOC I/OCoin
+@currencyunit IOC IOCoin
 @currencyunit IOG Playgroundz
 @currencyunit ION ION
 @currencyunit IONC IONChain
@@ -1717,7 +1653,6 @@
 @currencyunit JOBS Jobscoin
 @currencyunit JOINT JointVentures
 @currencyunit JOOS JOOSProtocol
-@currencyunit JOT Jury.OnlineToken
 @currencyunit JOYS JOYS
 @currencyunit JRC FinChain
 @currencyunit JS JavaScriptToken
@@ -1751,7 +1686,6 @@
 @currencyunit KEOS KEOS
 @currencyunit KETO KETOsisCoin
 @currencyunit KGLD KAZUGOLD
-@currencyunit KGS KINGSCOIN
 @currencyunit KICK KickCoin
 @currencyunit KIN Kin
 @currencyunit KIND KindAdsToken
@@ -1801,7 +1735,6 @@
 @currencyunit KUMA KumaCoin
 @currencyunit KUN KUN
 @currencyunit KURT Kurrent
-@currencyunit KWATT 4New
 @currencyunit KWH KwhCoin
 @currencyunit KXC KingXChain
 @currencyunit KYD KnowYourDeveloper
@@ -1870,7 +1803,6 @@
 @currencyunit LK LikerWorld
 @currencyunit LKK Lykke
 @currencyunit LKN LinkCoinToken
-@currencyunit LKR LKRCoin
 @currencyunit LKY Linkey
 @currencyunit LLG Lelego
 @currencyunit LLM Merit
@@ -1882,8 +1814,6 @@
 @currencyunit LML LiskMachineLearning
 @currencyunit LMO Lumeneo
 @currencyunit LN LINK
-@currencyunit LNC Blocklancer
-@currencyunit LNC LinkerCoin
 @currencyunit LND Lendingblock
 @currencyunit LNK LinkPlatform
 @currencyunit LNO Livenodes
@@ -1904,7 +1834,7 @@
 @currencyunit LQD LiquidityNetwork
 @currencyunit LRC Loopring
 @currencyunit LRM LiquidRegenerativeMedicineCoin
-@currencyunit LRN Loopring[NEO]
+@currencyunit LRN LoopringNEO
 @currencyunit LSK Lisk
 @currencyunit LSR LeisureCoin
 @currencyunit LSTR LunaStars
@@ -1918,11 +1848,9 @@
 @currencyunit LTH LutherChain
 @currencyunit LTHN Lethean
 @currencyunit LTK LitecoinToken
-@currencyunit LTNCG LightningCash-Gold
+@currencyunit LTNCG LightningCashGold
 @currencyunit LTO LTONetwork
-@currencyunit LUC Level-UpCoin
-@currencyunit LUCKY LUCKY
-@currencyunit LUCKY LuckyBit
+@currencyunit LUC LevelUpCoin
 @currencyunit LUN Lunyr
 @currencyunit LUNES Lunes
 @currencyunit LUPX Lupecoin
@@ -1986,7 +1914,7 @@
 @currencyunit MCI Musiconomi
 @currencyunit MCM Mochimo
 @currencyunit MCN MonetaVerde
-@currencyunit MCO Crypto.com
+@currencyunit MCO Crypto_dot_com
 @currencyunit MCPC MobileCryptoPayCoin
 @currencyunit MCR Macro
 @currencyunit MCS MagicStoneFund
@@ -2067,7 +1995,6 @@
 @currencyunit MNP MNPCoin
 @currencyunit MNPR MNPRO
 @currencyunit MNRRI MINERRI
-@currencyunit MNT MNTracker
 @currencyunit MNTP Goldmint
 @currencyunit MNX MinexCoin
 @currencyunit MOAC MOAC
@@ -2124,7 +2051,6 @@
 @currencyunit MTX MATRYX
 @currencyunit MUE MonetaryUnit
 @currencyunit MUN MUNcoin
-@currencyunit MUR Murmur
 @currencyunit MUSIC Musicoin
 @currencyunit MUSK Musk
 @currencyunit MUXE MUXE
@@ -2144,11 +2070,8 @@
 @currencyunit MZI Moozicore
 @currencyunit MZK MuzikaNetwork
 @currencyunit N2O Nitrous
-@currencyunit NAC Nami.Trade
 @currencyunit NAH Strayacoin
 @currencyunit NAI NAiToken
-@currencyunit NAM NAMToken
-@currencyunit NAM Namacoin
 @currencyunit NAMO NamoCoin
 @currencyunit NANJ NANJCOIN
 @currencyunit NANO Nano
@@ -2164,22 +2087,14 @@
 @currencyunit NBOT NakaBodhiToken
 @currencyunit NBR NiobioCash
 @currencyunit NBT NinsaBToken
-@currencyunit NBX NibbleClassic
-@currencyunit NBX Noxbox
 @currencyunit NC NewChat
 @currencyunit NCASH NucleusVision
-@currencyunit NCC NeedsCoin
-@currencyunit NCC NeuroChain
 @currencyunit NCP NewtonCoinProject
 @currencyunit NCT PolySwarm
 @currencyunit NDAO NeuroDAO
 @currencyunit NDB NodeBase
-@currencyunit NDC NEVERDIE
-@currencyunit NDC needlecoin
 @currencyunit NDEX NebliDex
 @currencyunit NDT nDEXNetworkCoin
-@currencyunit NDX NewdexToken
-@currencyunit NDX nDEX
 @currencyunit NEAL CoinealToken
 @currencyunit NEBL Neblio
 @currencyunit NEC NectarToken
@@ -2208,7 +2123,6 @@
 @currencyunit NIKO NIKO
 @currencyunit NILU Nilu
 @currencyunit NIM Nimiq
-@currencyunit NIO Autonio
 @currencyunit NIX NIX
 @currencyunit NKA IncaKoin
 @currencyunit NKC Nework
@@ -2220,8 +2134,6 @@
 @currencyunit NMR Numeraire
 @currencyunit NMS Numus
 @currencyunit NMT NewMediaTechnology
-@currencyunit NNC NEONameCredit
-@currencyunit NNC Nanucoin
 @currencyunit NNSH NANASHIToken
 @currencyunit NOAH NoahCoin
 @currencyunit NOBL NobleCoin
@@ -2250,8 +2162,6 @@
 @currencyunit NSG Nasgo
 @currencyunit NSR NuShares
 @currencyunit NST Newsolution
-@currencyunit NTK Netkoin
-@currencyunit NTK Neurotoken
 @currencyunit NTOK NTOK
 @currencyunit NTP NETWORKTOKENPAYMENT
 @currencyunit NTRN Neutron
@@ -2289,8 +2199,6 @@
 @currencyunit OCE OceanEXToken
 @currencyunit OCG OrocryptGoldToken
 @currencyunit OCL Oceanlab
-@currencyunit OCN Odyssey
-@currencyunit OCN Operacoin
 @currencyunit OCP OCProtocol
 @currencyunit OCT OracleChain
 @currencyunit OCTC OCTCOIN
@@ -2349,8 +2257,6 @@
 @currencyunit ORM ORIUM
 @currencyunit ORME OrmeusCoin
 @currencyunit OROX Cointorox
-@currencyunit ORS ORSGroup
-@currencyunit ORS OriginSport
 @currencyunit ORT Oratium
 @currencyunit ORYX OryxCoin
 @currencyunit OS76 OsmiumCoin
@@ -2551,8 +2457,6 @@
 @currencyunit PURA Pura
 @currencyunit PURE Purealt
 @currencyunit PUREX Purex
-@currencyunit PUT ProfileUtilityToken
-@currencyunit PUT PutinCoin
 @currencyunit PVB PointsValueBank
 @currencyunit PWC PawCoin
 @currencyunit PWR PWRCoin
@@ -2735,8 +2639,6 @@
 @currencyunit RYA RYAcoin
 @currencyunit RZB Rizubot
 @currencyunit S4F S4FE
-@currencyunit SAFE Safe
-@currencyunit SAFE SafeCoin
 @currencyunit SAFEX SafeExchangeCoin
 @currencyunit SAGA SagaCoin
 @currencyunit SAIT SophonCapitalToken
@@ -2754,7 +2656,6 @@
 @currencyunit SAY SpherePay
 @currencyunit SBA SimplyBrand
 @currencyunit SBC StrikeBitClub
-@currencyunit SBD SteemDollars
 @currencyunit SBIT Stackbit
 @currencyunit SC Siacoin
 @currencyunit SCA SiaClassic
@@ -2767,7 +2668,6 @@
 @currencyunit SCOL Scolcoin
 @currencyunit SCORE Scorecoin
 @currencyunit SCP SiaPrimeCoin
-@currencyunit SCR Scorum
 @currencyunit SCRIBE Scribe
 @currencyunit SCRIV SCRIV
 @currencyunit SCRL ScrollToken
@@ -2830,7 +2730,6 @@
 @currencyunit SHND StrongHands
 @currencyunit SHORTY Shorty
 @currencyunit SHOW Show
-@currencyunit SHP SharpePlatformToken
 @currencyunit SHPING Shping
 @currencyunit SHRM Shrooms
 @currencyunit SHVR Shivers
@@ -2838,7 +2737,7 @@
 @currencyunit SIB SIBCoin
 @currencyunit SIC Swisscoin
 @currencyunit SICA SignatureChain
-@currencyunit SICC Swisscoin-Classic
+@currencyunit SICC SwisscoinClassic
 @currencyunit SIDT SIDToken
 @currencyunit SIERRA Sierracoin
 @currencyunit SIFT SmartInvestmentFundToken
@@ -2892,7 +2791,6 @@
 @currencyunit SNL SportandLeisure
 @currencyunit SNM SONM
 @currencyunit SNO savenode
-@currencyunit SNOV Snovian.Space
 @currencyunit SNOW SnowBlossom
 @currencyunit SNPC Snapparazzi
 @currencyunit SNR SONDER
@@ -2907,7 +2805,6 @@
 @currencyunit SOCX SocialX
 @currencyunit SOL SolaToken
 @currencyunit SOLACE SolaceCoin
-@currencyunit SOLVE Solve.Care
 @currencyunit SONG SongCoin
 @currencyunit SONIQ Soniq
 @currencyunit SONO SONO
@@ -2933,8 +2830,6 @@
 @currencyunit SPIRIT SPIRIT
 @currencyunit SPK SparksPay
 @currencyunit SPLB SimpleBank
-@currencyunit SPN Sapien
-@currencyunit SPN SpartanCoin
 @currencyunit SPND Spendcoin
 @currencyunit SPO SPEDO
 @currencyunit SPOT SpotCoin
@@ -2953,7 +2848,6 @@
 @currencyunit SRNT Serenity
 @currencyunit SS sharderprotocol
 @currencyunit SSC SelfSell
-@currencyunit SSP Smartshare
 @currencyunit SSS Sharechain
 @currencyunit SST SuperStar
 @currencyunit SSX StakeShare
@@ -3079,8 +2973,6 @@
 @currencyunit TFT ThreeFoldToken
 @currencyunit TFUEL ThetaFuel
 @currencyunit TGAME Truegame
-@currencyunit TGC EOSTiger
-@currencyunit TGC Tigercoin
 @currencyunit TGCH TrueGalaxyCash
 @currencyunit TGT TargetCoin
 @currencyunit THAN Thanatos
@@ -3123,7 +3015,6 @@
 @currencyunit TLX Telex
 @currencyunit TMB TemboCoin
 @currencyunit TMN TranslateMeNetworkToken
-@currencyunit TMT Traxia
 @currencyunit TMTG TheMidasTouchGold
 @currencyunit TN TurtleNode
 @currencyunit TNB TimeNewBank
@@ -3142,7 +3033,6 @@
 @currencyunit TOL Tolar
 @currencyunit TOMO TomoChain
 @currencyunit TOOK TOOKTOOK
-@currencyunit TOP TOPNetwork
 @currencyunit TOPB TOPBTCToken
 @currencyunit TOPC TopChain
 @currencyunit TOR Torcoin
@@ -3222,7 +3112,6 @@
 @currencyunit TYPE Typerium
 @currencyunit TYT TianyaToken
 @currencyunit TZC TrezarCoin
-@currencyunit UAH UAHPay
 @currencyunit UBC UbcoinMarket
 @currencyunit UBEX Ubex
 @currencyunit UBQ Ubiq
@@ -3270,8 +3159,6 @@
 @currencyunit URALS Uralscoin
 @currencyunit URX UraniumX
 @currencyunit USAT USAT
-@currencyunit USC USC
-@currencyunit USC UltimateSecureCash
 @currencyunit USDC USDCoin
 @currencyunit USDS StableUSD
 @currencyunit USDT Tether
@@ -3295,7 +3182,6 @@
 @currencyunit UZZ UZURAS
 @currencyunit VAAC VisaApplicationChain
 @currencyunit VAC VACGame
-@currencyunit VAI Viola.AI
 @currencyunit VAL Valorbit
 @currencyunit VALOR SmartValor
 @currencyunit VAPEX Vapex
@@ -3339,8 +3225,6 @@
 @currencyunit VIP VipCoin
 @currencyunit VIPS VIPSTARCOIN
 @currencyunit VISIO Visio
-@currencyunit VIT ViceIndustryToken
-@currencyunit VIT Vitalcoin
 @currencyunit VITAE Vitae
 @currencyunit VITE Vite
 @currencyunit VITES Vites
@@ -3356,8 +3240,6 @@
 @currencyunit VLU Valuto
 @currencyunit VME VeriME
 @currencyunit VNS VNSCoin
-@currencyunit VOC VocalChain
-@currencyunit VOC VocoNetworks
 @currencyunit VOCO Provoco
 @currencyunit VOISE VOISE
 @currencyunit VOLLAR Vollar
@@ -3446,8 +3328,6 @@
 @currencyunit WINGS Wings
 @currencyunit WIRE AirWire
 @currencyunit WISH MyWish
-@currencyunit WIT WITChain
-@currencyunit WIT WealthinToken
 @currencyunit WITT Witoken
 @currencyunit WIX Wixlar
 @currencyunit WIZ CrowdWiz
@@ -3470,7 +3350,7 @@
 @currencyunit WSC WeSingCoin
 @currencyunit WSP Wispr
 @currencyunit WSX WeAreSatoshi
-@currencyunit WT WorldWi-FiWeToken
+@currencyunit WT WorldWiFiWeToken
 @currencyunit WTC Waltonchain
 @currencyunit WTHC Withcoin
 @currencyunit WTIP Worktips
@@ -3513,7 +3393,6 @@
 @currencyunit XBY XtraBYtes
 @currencyunit XC XCurrency
 @currencyunit XCASH XCASH
-@currencyunit XCD Capdax
 @currencyunit XCE Cerium
 @currencyunit XCEL XcelToken
 @currencyunit XCG Xchange
@@ -3594,8 +3473,6 @@
 @currencyunit XP XP
 @currencyunit XPA XPA
 @currencyunit XPAT PangeaArbitrationTokenBitnation
-@currencyunit XPC XpetCoin
-@currencyunit XPC eXPerienceChain
 @currencyunit XPD PetroDollar
 @currencyunit XPH PHANTOM
 @currencyunit XPM Primecoin
@@ -3604,8 +3481,6 @@
 @currencyunit XPST PokerSports
 @currencyunit XQN Quotient
 @currencyunit XQR Qredit
-@currencyunit XRC BitcoinRhodium
-@currencyunit XRC Rawcoin
 @currencyunit XRE Revolvercoin
 @currencyunit XRH Rhenium
 @currencyunit XRP XRP
@@ -3614,8 +3489,6 @@
 @currencyunit XRT XRTFoundation
 @currencyunit XRUP RUPEES
 @currencyunit XRY Royalties
-@currencyunit XSC Hyperspace
-@currencyunit XSC XsCoin
 @currencyunit XSCP ScopeCoin
 @currencyunit XSG SnowGem
 @currencyunit XSH SHIELD
@@ -3695,8 +3568,6 @@
 @currencyunit ZEL ZelCash
 @currencyunit ZEN Horizen
 @currencyunit ZENGOLD ZenGold
-@currencyunit ZEON ZEONNetwork
-@currencyunit ZEON Zeon
 @currencyunit ZEPH Zephyr
 @currencyunit ZER Zero
 @currencyunit ZEST Zest
@@ -3735,16 +3606,32 @@
 @currencyunit ZSC Zeusshield
 @currencyunit ZT ZTCoin
 @currencyunit ZTA Erotica
-@currencyunit ZTC ZeTo
-@currencyunit ZTC ZentCash
 @currencyunit ZTTL Zettelkasten
 @currencyunit ZTX ZuluRepublicToken
 @currencyunit ZUBE zuzubecoin
 @currencyunit ZXT ZhixinChain
 @currencyunit ZZC ZoZoCoin
 
+# TODO:
+# The following need to be renamed to make sure there are no conflicts with
+# other currencies (FIXME means fiat conflict, TODO means crypto conflict).
+
+#FIXME: @currencyunit BND Blocknode
+#FIXME: @currencyunit BOB Bob'sRepair
+#FIXME: @currencyunit BSD BitSend
+#FIXME: @currencyunit BTN BitNewChain
+#FIXME: @currencyunit KGS KINGSCOIN
 #FIXME: @currencyunit MAD MADNetworkToken
+#FIXME: @currencyunit MNT MNTracker
+#FIXME: @currencyunit MUR Murmur
+#FIXME: @currencyunit NIO Autonio
+#FIXME: @currencyunit SBD SteemDollars
+#FIXME: @currencyunit SCR Scorum
+#FIXME: @currencyunit TMT Traxia
+#FIXME: @currencyunit TOP TOPNetwork
+#FIXME: @currencyunit UAH UAHPay
 #FIXME: @currencyunit XBT Bricktox
+#FIXME: @currencyunit XCD Capdax
 #TODO: @currencyunit $$$ Money
 #TODO: @currencyunit $PAC PACcoin
 #TODO: @currencyunit 0XBTC 0xBitcoin
@@ -3778,6 +3665,8 @@
 #TODO: @currencyunit ACC ACChain
 #TODO: @currencyunit ACC AcceleratorNetwork
 #TODO: @currencyunit ACC AdCoin
+#TODO: @currencyunit ADC Androidchain
+#TODO: @currencyunit ADC AudioCoin
 #TODO: @currencyunit ADD ADDToken
 #TODO: @currencyunit ADD AdNode
 #TODO: @currencyunit ADD EOSADD
@@ -3785,10 +3674,12 @@
 #TODO: @currencyunit ADE CADEOS
 #TODO: @currencyunit ADL Adelphoi
 #TODO: @currencyunit ADL Adler
+#TODO: @currencyunit ADV2 AdevPlus2.0
 #TODO: @currencyunit AID AIDUSCOIN
 #TODO: @currencyunit AID AidCoin
 #TODO: @currencyunit ALC Aliencoin
 #TODO: @currencyunit ALC Allcoin
+#TODO: @currencyunit AOA Aurora
 #TODO: @currencyunit ARB ARBITRAGE
 #TODO: @currencyunit ARB ARbitCoin
 #TODO: @currencyunit ARC ArcadeToken
@@ -3800,8 +3691,13 @@
 #TODO: @currencyunit ATL Atalira
 #TODO: @currencyunit ATL Atlant
 #TODO: @currencyunit ATL AtlanticoNetwork
+#TODO: @currencyunit ATX ArtexCoin
+#TODO: @currencyunit ATX Aston
+#TODO: @currencyunit AVA Travala.com
 #TODO: @currencyunit B2B B2BX
 #TODO: @currencyunit B2B B2Bcoin
+#TODO: @currencyunit B@ Bankcoin
+#TODO: @currencyunit BAT Batcoin
 #TODO: @currencyunit BBK BitBlocks
 #TODO: @currencyunit BBK BrickBlock
 #TODO: @currencyunit BBT BitBoost
@@ -3816,7 +3712,11 @@
 #TODO: @currencyunit BDT BlockonixToken
 #TODO: @currencyunit BEAN BeanCash
 #TODO: @currencyunit BEAN EOSCafe
+#TODO: @currencyunit BEN BEN
+#TODO: @currencyunit BEN BitCoen
+#TODO: @currencyunit BGX BGX
 #TODO: @currencyunit BGX Bit.Game
+#TODO: @currencyunit BGX BitcoinGenX
 #TODO: @currencyunit BHD BitcoinHD
 #TODO: @currencyunit BHD Bithold
 #TODO: @currencyunit BIN BINPAY
@@ -3831,6 +3731,9 @@
 #TODO: @currencyunit BITX BitScreener
 #TODO: @currencyunit BKC Balkancoin
 #TODO: @currencyunit BKC BankcoinCash
+#TODO: @currencyunit BLOC Bloc.Money
+#TODO: @currencyunit BLOC Blockcloud
+#TODO: @currencyunit BLOC Blockcloud[IOU]
 #TODO: @currencyunit BLZ Blazecoin
 #TODO: @currencyunit BLZ Bluzelle
 #TODO: @currencyunit BOLD Bold
@@ -3860,6 +3763,8 @@
 #TODO: @currencyunit BTCP BitcoinPro
 #TODO: @currencyunit BTCS BitcoinScrypt
 #TODO: @currencyunit BTCS BitcoinSilver
+#TODO: @currencyunit BTH BitcoinHot
+#TODO: @currencyunit BTH Bithereum
 #TODO: @currencyunit BTP BitcoinPay
 #TODO: @currencyunit BTP Bitpaid
 #TODO: @currencyunit BTR BitRice
@@ -3892,8 +3797,14 @@
 #TODO: @currencyunit CBT Chatbit
 #TODO: @currencyunit CBT CommerceBlockToken
 #TODO: @currencyunit CBT Crebit
+#TODO: @currencyunit CCN Cannacoin
+#TODO: @currencyunit CCN Customcontractnetwork
+#TODO: @currencyunit CCT ClapClapToken
+#TODO: @currencyunit CCT CrystalClear
 #TODO: @currencyunit CDC CommerceDataConnection
 #TODO: @currencyunit CDC CryptoDiamondCoin
+#TODO: @currencyunit CDX CDXNetwork
+#TODO: @currencyunit CDX CODEXToken
 #TODO: @currencyunit CEN Centaure
 #TODO: @currencyunit CEN CoinsuperEcosystemNetwork
 #TODO: @currencyunit CET ChainceToken
@@ -3917,6 +3828,8 @@
 #TODO: @currencyunit CNET CurrencyNetwork
 #TODO: @currencyunit CNMC Agriculturalecologicalchain
 #TODO: @currencyunit CNMC Cryptonodes
+#TODO: @currencyunit CNZ CoinzoToken
+#TODO: @currencyunit CNZ CryptoNationZ
 #TODO: @currencyunit CPC CPChain
 #TODO: @currencyunit CPC Capricoin
 #TODO: @currencyunit CPC CashpayzToken
@@ -3938,9 +3851,15 @@
 #TODO: @currencyunit DAC DavinciCoin
 #TODO: @currencyunit DAG Constellation
 #TODO: @currencyunit DAG DAGX
+#TODO: @currencyunit DAY Chronologic
+#TODO: @currencyunit DAY DAY
+#TODO: @currencyunit DCA DCAex
+#TODO: @currencyunit DCA DecentralizedCurrencyAssets
 #TODO: @currencyunit DCO DropCoin
 #TODO: @currencyunit DCO D’COIN
 #TODO: @currencyunit DDD Scry.info
+#TODO: @currencyunit DFS DFSCoin
+#TODO: @currencyunit DFS DigitalFantasySports
 #TODO: @currencyunit DFT DigiFinexToken
 #TODO: @currencyunit DFT DraftCoin
 #TODO: @currencyunit DICE BetDice
@@ -3962,14 +3881,17 @@
 #TODO: @currencyunit EBTC EOSBTC
 #TODO: @currencyunit EBTC ExtremeBTC
 #TODO: @currencyunit EBTC eBitcoin
+#TODO: @currencyunit ECOL Ecological.ling
 #TODO: @currencyunit EDC EDCASH
 #TODO: @currencyunit EDC EDCBlockchain
 #TODO: @currencyunit EDS Eidas
 #TODO: @currencyunit EDS Endorsit
 #TODO: @currencyunit EDU Educoin
 #TODO: @currencyunit EDU LiveEdu
+#TODO: @currencyunit EFX Effect.AI
 #TODO: @currencyunit EGC EcoG9coin
 #TODO: @currencyunit EGC EverGreenCoin
+#TODO: @currencyunit ELEC Electrify.Asia
 #TODO: @currencyunit ELET Elementeum
 #TODO: @currencyunit ELET Elementiumtoken
 #TODO: @currencyunit ELI ELIGMA
@@ -3978,15 +3900,20 @@
 #TODO: @currencyunit EMT easyMine
 #TODO: @currencyunit ENB ENBank
 #TODO: @currencyunit ENB EnergyBlock
+#TODO: @currencyunit ENK Enkidu
+#TODO: @currencyunit ENK Enkronos
 #TODO: @currencyunit ENT ENTCash
 #TODO: @currencyunit ENT Eternity
 #TODO: @currencyunit EPC ElectronicPKChain
 #TODO: @currencyunit EPC EpaCoin
 #TODO: @currencyunit EPC ExperienceCoin
+#TODO: @currencyunit ERT Esports.com
 #TODO: @currencyunit ET EXXToken
 #TODO: @currencyunit ET EndlessGameToken
 #TODO: @currencyunit ETT EncryptoTelWaves
 #TODO: @currencyunit ETT EncryptotelETH
+#TODO: @currencyunit EUSD EOSUSD
+#TODO: @currencyunit EUSD eUSD
 #TODO: @currencyunit EVC EcoValueCoin
 #TODO: @currencyunit EVC EvaCash
 #TODO: @currencyunit EVC EventChain
@@ -4005,15 +3932,21 @@
 #TODO: @currencyunit FC FuturesCoin
 #TODO: @currencyunit FCC FileCash
 #TODO: @currencyunit FCC FiveColorsCoin
+#TODO: @currencyunit FEX FEXToken
+#TODO: @currencyunit FEX FIDEXExchange
 #TODO: @currencyunit FGC FantasyGold
 #TODO: @currencyunit FGC FoundGame
 #TODO: @currencyunit FIX Finamatrix
 #TODO: @currencyunit FIX Fusionchain
 #TODO: @currencyunit FKX FortKnoxster
 #TODO: @currencyunit FKX Knoxstertoken
+#TODO: @currencyunit FNL Finlocale
+#TODO: @currencyunit FNL FunnelToken
 #TODO: @currencyunit FORK Forkcoin
 #TODO: @currencyunit FORK GastroAdvisor
 #TODO: @currencyunit FST 1irstcoin
+#TODO: @currencyunit FT FCoinToken
+#TODO: @currencyunit FT FabricToken
 #TODO: @currencyunit FTX FintruX
 #TODO: @currencyunit FTX ForTheWin
 #TODO: @currencyunit FUN FunFair
@@ -4043,12 +3976,16 @@
 #TODO: @currencyunit GET ThemisNetwork
 #TODO: @currencyunit GFC GFCGoldCoin
 #TODO: @currencyunit GFC GlobfoneCoin
+#TODO: @currencyunit GLC GlobalCoin
+#TODO: @currencyunit GLC Goldcoin
 #TODO: @currencyunit GMB GAMB
 #TODO: @currencyunit GMB GMB
 #TODO: @currencyunit GME GameCoin
 #TODO: @currencyunit GME GameLife
 #TODO: @currencyunit GMX GlobalMonetaryTransfer
 #TODO: @currencyunit GMX Goldmaxcoin
+#TODO: @currencyunit GOLD GOLD
+#TODO: @currencyunit GOLD TRONGOLD
 #TODO: @currencyunit GOT GOeureka
 #TODO: @currencyunit GOT GoNetwork
 #TODO: @currencyunit GOT ParkinGo
@@ -4064,8 +4001,15 @@
 #TODO: @currencyunit HC HarvestMasternodeCoin
 #TODO: @currencyunit HC HyperCash
 #TODO: @currencyunit HDP.Ф HEdpAY
+#TODO: @currencyunit HELP GoHelpFund
+#TODO: @currencyunit HELP Helpico
+#TODO: @currencyunit HER HeraCoin
+#TODO: @currencyunit HER HeroNodeToken
 #TODO: @currencyunit HERB HERB
 #TODO: @currencyunit HERB HerbalistToken
+#TODO: @currencyunit HERO HeroToken
+#TODO: @currencyunit HERO SovereignHero
+#TODO: @currencyunit HEX HealthEvolutiononX.blockchain
 #TODO: @currencyunit HIPHOP 4Hiphop
 #TODO: @currencyunit HMC HarmonyCoin
 #TODO: @currencyunit HMC HiMutualSociety
@@ -4077,6 +4021,9 @@
 #TODO: @currencyunit HPC Happycoin
 #TODO: @currencyunit HPC HashPowerCapital
 #TODO: @currencyunit HT HOTTO
+#TODO: @currencyunit ICT ICOCalendar.Today
+#TODO: @currencyunit IFX IFX
+#TODO: @currencyunit IFX Infinex
 #TODO: @currencyunit IMC IMMCOIN
 #TODO: @currencyunit IMC IntermodalCoin
 #TODO: @currencyunit INC Incognito
@@ -4090,6 +4037,7 @@
 #TODO: @currencyunit IT IDAXToken
 #TODO: @currencyunit IT IDCToken
 #TODO: @currencyunit J Joincoin
+#TODO: @currencyunit JOT Jury.OnlineToken
 #TODO: @currencyunit JOY JOYSO
 #TODO: @currencyunit JOY JoyToken
 #TODO: @currencyunit JOY Joystick
@@ -4102,6 +4050,7 @@
 #TODO: @currencyunit KNT Knekted
 #TODO: @currencyunit KNT KoraNetwork
 #TODO: @currencyunit KPC K-PlusCoin
+#TODO: @currencyunit KWATT 4New
 #TODO: @currencyunit LBT LBTChain
 #TODO: @currencyunit LBT Lobitcoin
 #TODO: @currencyunit LBTC LightningBitcoin
@@ -4117,6 +4066,9 @@
 #TODO: @currencyunit LIQUID NetkoinLiquid
 #TODO: @currencyunit LIT Lithium
 #TODO: @currencyunit LIT Lition
+#TODO: @currencyunit LKR LKRCoin
+#TODO: @currencyunit LNC Blocklancer
+#TODO: @currencyunit LNC LinkerCoin
 #TODO: @currencyunit LOC LockTrip
 #TODO: @currencyunit LOC loopycoin
 #TODO: @currencyunit LST LendroidSupportToken
@@ -4124,6 +4076,8 @@
 #TODO: @currencyunit LST Luckstar
 #TODO: @currencyunit LTG LiteGold
 #TODO: @currencyunit LTK LitKoin
+#TODO: @currencyunit LUCKY LUCKY
+#TODO: @currencyunit LUCKY LuckyBit
 #TODO: @currencyunit LX LunarX
 #TODO: @currencyunit LX MoonlightLux
 #TODO: @currencyunit LXT LEXIT
@@ -4176,21 +4130,38 @@
 #TODO: @currencyunit MTC sportschain
 #TODO: @currencyunit MTN Medicalchain
 #TODO: @currencyunit MTN MotionOne
+#TODO: @currencyunit NAC Nami.Trade
+#TODO: @currencyunit NAM NAMToken
+#TODO: @currencyunit NAM Namacoin
 #TODO: @currencyunit NANOX Project-X
 #TODO: @currencyunit NAST NodeAll-Star
+#TODO: @currencyunit NBX NibbleClassic
+#TODO: @currencyunit NBX Noxbox
+#TODO: @currencyunit NCC NeedsCoin
+#TODO: @currencyunit NCC NeuroChain
+#TODO: @currencyunit NDC NEVERDIE
+#TODO: @currencyunit NDC needlecoin
+#TODO: @currencyunit NDX NewdexToken
+#TODO: @currencyunit NDX nDEX
 #TODO: @currencyunit NELLA X-Nella
 #TODO: @currencyunit NET Netcoin
 #TODO: @currencyunit NET Next
 #TODO: @currencyunit NET NimiqExchangeToken
 #TODO: @currencyunit NEXT NEXT.exchange
+#TODO: @currencyunit NNC NEONameCredit
+#TODO: @currencyunit NNC Nanucoin
 #TODO: @currencyunit NPC NPCcoin
 #TODO: @currencyunit NPC NPCoin
 #TODO: @currencyunit NRC NewRetailCoin
 #TODO: @currencyunit NRC NovaRealmCity
 #TODO: @currencyunit NTC Natcoin
 #TODO: @currencyunit NTC Neptunecoin
+#TODO: @currencyunit NTK Netkoin
+#TODO: @currencyunit NTK Neurotoken
 #TODO: @currencyunit OBX OBXcoin
 #TODO: @currencyunit OBX OOOBTCToken
+#TODO: @currencyunit OCN Odyssey
+#TODO: @currencyunit OCN Operacoin
 #TODO: @currencyunit ODIN ODINBlockchain
 #TODO: @currencyunit ODIN OdinBrowser
 #TODO: @currencyunit OLE Olestars
@@ -4201,6 +4172,8 @@
 #TODO: @currencyunit ONG OntologyGas
 #TODO: @currencyunit ONG onG.social
 #TODO: @currencyunit ONL On.Live
+#TODO: @currencyunit ORS ORSGroup
+#TODO: @currencyunit ORS OriginSport
 #TODO: @currencyunit OSC OasisCity
 #TODO: @currencyunit OSC OpenSourceCoin
 #TODO: @currencyunit OUR Ourcoin
@@ -4228,6 +4201,8 @@
 #TODO: @currencyunit POP PopularCoin
 #TODO: @currencyunit POS POSCoin
 #TODO: @currencyunit POS PoSToken
+#TODO: @currencyunit PUT ProfileUtilityToken
+#TODO: @currencyunit PUT PutinCoin
 #TODO: @currencyunit PXC Phoenixcoin
 #TODO: @currencyunit PXC PixieCoin
 #TODO: @currencyunit PXL PictionNetwork
@@ -4265,6 +4240,8 @@
 #TODO: @currencyunit S Sharpay
 #TODO: @currencyunit SAC SACoin
 #TODO: @currencyunit SAC SmartApplicationCoin
+#TODO: @currencyunit SAFE Safe
+#TODO: @currencyunit SAFE SafeCoin
 #TODO: @currencyunit SBTC SiamBitcoin
 #TODO: @currencyunit SBTC SuperBitcoin
 #TODO: @currencyunit SCC SecureCryptoCoin
@@ -4284,6 +4261,7 @@
 #TODO: @currencyunit SHOP SHOPCOIN
 #TODO: @currencyunit SHOP Shopin
 #TODO: @currencyunit SHOP ShoppingChain
+#TODO: @currencyunit SHP SharpePlatformToken
 #TODO: @currencyunit SKR Sakuracoin
 #TODO: @currencyunit SKR SkrillaToken
 #TODO: @currencyunit SKY Scopuly
@@ -4295,10 +4273,15 @@
 #TODO: @currencyunit SMT SunMoney
 #TODO: @currencyunit SND Sandcoin
 #TODO: @currencyunit SND SnodeCoin
+#TODO: @currencyunit SNOV Snovian.Space
+#TODO: @currencyunit SOLVE Solve.Care
 #TODO: @currencyunit SOUL CryptoSoul
 #TODO: @currencyunit SOUL Phantasma
 #TODO: @currencyunit SPD SPINDLE
 #TODO: @currencyunit SPD Stipend
+#TODO: @currencyunit SPN Sapien
+#TODO: @currencyunit SPN SpartanCoin
+#TODO: @currencyunit SSP Smartshare
 #TODO: @currencyunit STC 2345StarCoin
 #TODO: @currencyunit STC CoinStarter
 #TODO: @currencyunit STC StarChain
@@ -4324,6 +4307,8 @@
 #TODO: @currencyunit TFC TheFreedomCoin
 #TODO: @currencyunit TFC TransferCoin
 #TODO: @currencyunit TFC TreasureFinancialCoin
+#TODO: @currencyunit TGC EOSTiger
+#TODO: @currencyunit TGC Tigercoin
 #TODO: @currencyunit TIC ItitaniumCoin
 #TODO: @currencyunit TIC Thingschain
 #TODO: @currencyunit TIE Ties.DB
@@ -4348,16 +4333,23 @@
 #TODO: @currencyunit UCASH U.CASH
 #TODO: @currencyunit UNC UniGame
 #TODO: @currencyunit UNC Unioncoin
+#TODO: @currencyunit USC USC
+#TODO: @currencyunit USC UltimateSecureCash
 #TODO: @currencyunit UST UltraSalescloud
 #TODO: @currencyunit UST UniversalShieldToken
 #TODO: @currencyunit UST Uservice
 #TODO: @currencyunit V Version
+#TODO: @currencyunit VAI Viola.AI
 #TODO: @currencyunit VIC VRICOIN
 #TODO: @currencyunit VIC Victorium
+#TODO: @currencyunit VIT ViceIndustryToken
+#TODO: @currencyunit VIT Vitalcoin
 #TODO: @currencyunit VNT VNTchain
 #TODO: @currencyunit VNT VantaNetwork
 #TODO: @currencyunit VNX Venox
 #TODO: @currencyunit VNX VisionX
+#TODO: @currencyunit VOC VocalChain
+#TODO: @currencyunit VOC VocoNetworks
 #TODO: @currencyunit VTC Vertcoin
 #TODO: @currencyunit VTC VoteCoin
 #TODO: @currencyunit WEB Webchain
@@ -4367,6 +4359,8 @@
 #TODO: @currencyunit WIN TronWin
 #TODO: @currencyunit WIN WCoin
 #TODO: @currencyunit WIN WinToken
+#TODO: @currencyunit WIT WITChain
+#TODO: @currencyunit WIT WealthinToken
 #TODO: @currencyunit WOW Wowcoin
 #TODO: @currencyunit WOW Wownero
 #TODO: @currencyunit XBC BitcoinPlus
@@ -4377,14 +4371,24 @@
 #TODO: @currencyunit XIN Mixin
 #TODO: @currencyunit XMX XMax
 #TODO: @currencyunit XMX Xuma
+#TODO: @currencyunit XPC XpetCoin
+#TODO: @currencyunit XPC eXPerienceChain
 #TODO: @currencyunit XPX ProximaX
 #TODO: @currencyunit XPX RipaEx
 #TODO: @currencyunit XRA Ratecoin
 #TODO: @currencyunit XRA Xriba
+#TODO: @currencyunit XRC BitcoinRhodium
+#TODO: @currencyunit XRC Rawcoin
+#TODO: @currencyunit XSC Hyperspace
+#TODO: @currencyunit XSC XsCoin
 #TODO: @currencyunit XSD Seedcoin
 #TODO: @currencyunit XSD SounDAC
 #TODO: @currencyunit XT 6XToken
 #TODO: @currencyunit ZCN 0chain
+#TODO: @currencyunit ZEON ZEONNetwork
+#TODO: @currencyunit ZEON Zeon
 #TODO: @currencyunit ZOC 01coin
 #TODO: @currencyunit ZRX 0x
+#TODO: @currencyunit ZTC ZeTo
+#TODO: @currencyunit ZTC ZentCash
 #TODO: @currencyunit ZXC 0xcert

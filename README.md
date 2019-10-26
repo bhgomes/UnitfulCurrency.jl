@@ -22,13 +22,13 @@ See [Unitful.jl](https://github.com/PainterQubits/Unitful.jl) documentation for 
 
 ## Fiat Currencies
 
-The following currencies are available:
+The following fiat currencies are available:
 
 **WIP**
 
 ## Crypto Currencies
 
-The following currencies are available:
+The following cryptocurrencies are available:
 
 **WIP**
 

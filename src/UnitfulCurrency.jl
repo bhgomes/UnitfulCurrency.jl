@@ -1,6 +1,8 @@
 # UnitfulCurrency.jl
 # Brandon H Gomes (@bhgomes)
 
+__precompile__(true)
+
 """
 Currencies as Units!
 """
@@ -11,12 +13,13 @@ using Unitful
 @dimension CURRENCY "CURRENCY" Currency
 
 macro currencyunit(code, name)
-    abbr = String(code)
-    esc(quote Unitful.@refunit $code $abbr $name CURRENCY true end)
+    abbreviation = String(code)
+    esc(quote Unitful.@refunit $code $abbreviation $name CURRENCY false end) 
+    # FIXME: allow base10 prefixes
 end
 
-include("crypto.jl")
 include("fiat.jl")
+include("crypto.jl")
 
 function __init__()
     Unitful.register(UnitfulCurrency)
