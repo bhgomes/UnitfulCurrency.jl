@@ -1,5 +1,5 @@
 # src/crypto.jl
-# Cryptocurrencies
+# Crypto Currencies
 
 @currencyunit BTC Bitcoin
 @currencyunit ETH Ethereum
