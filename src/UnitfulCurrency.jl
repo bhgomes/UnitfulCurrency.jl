@@ -10,18 +10,24 @@ module UnitfulCurrency
 
 using Unitful
 
+export CURRENCY
+
 @dimension CURRENCY "CURRENCY" Currency
 
 macro currencyunit(code, name)
     abbreviation = String(code)
-    esc(quote Unitful.@refunit $code $abbreviation $name CURRENCY false end) 
+    esc(quote Unitful.@refunit $code $abbreviation $name CURRENCY false end)
     # FIXME: allow base10 prefixes
 end
 
 include("fiat.jl")
 include("crypto.jl")
 
+const localunits = Unitful.basefactors
+const localpromotion = Unitful.promotion
 function __init__()
+    merge!(Unitful.basefactors, localunits)
+    merge!(Unitful.promotion, localpromotion)
     Unitful.register(UnitfulCurrency)
 end
 
