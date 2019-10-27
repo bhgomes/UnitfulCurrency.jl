@@ -83,9 +83,7 @@ The following fiat currencies are available:
 
 The following cryptocurrencies are available:
 
-<div align="center>
 **WIP**
-</div>
 
 ---
 <div align="center">
