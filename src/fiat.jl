@@ -29,7 +29,6 @@
 @currencyunit CAD    CanadianDollar
 @currencyunit CDF    CongoleseFranc
 @currencyunit CHF    SwissFranc
-@currencyunit CHF    SwissFranc
 @currencyunit CLP    ChileanPeso
 @currencyunit CNY    YuanRenminbi
 @currencyunit COP    ColombianPeso
