@@ -24,56 +24,55 @@ See [Unitful.jl](https://github.com/PainterQubits/Unitful.jl) documentation for 
 
 The following fiat currencies are available:
 
-| Currency | Code | Currency | Code |
-|----------|:----:|----------|:----:|
-| United Arab Emirates Dirham | AED |  |  |
-| Afghani | AFN |  |  |
-| Lek | ALL |  |  |
-| Armenian Dram | AMD |  |  |
-| Netherlands Antillean Guilder | ANG |  |  |
-| Kwanza | AOA |  |  |
-| Argentine Peso | ARS |  |  |
-| Australian Dollar | AUD |  |  |
-| Aruban Florin | AWG |  |  |
-| Azerbaijan Manat | AZN |  |  |
-| Convertible Mark | BAM |  |  |
-| Barbados Dollar | BBD |  |  |
-| Taka | BDT |  |  |
-| Bulgarian Lev | BGN |  |  |
-| Bahraini Dinar | BHD |  |  |
-| Burundi Franc | BIF |  |  |
-| Bermudian Dollar | BMD |  |  |
-| Brunei Dollar | BND |  |  |
-| Boliviano | BOB |  |  |
-|  |  |  |  |
+| Currency | Code |   | Currency | Code |
+|----------|:----:|:-:|----------|:----:|
+| United Arab Emirates Dirham | AED |  |  |  |
+| Afghani | AFN |  |  |  |
+| Lek | ALL |  |  |  |
+| Armenian Dram | AMD |  |  |  |
+| Netherlands Antillean Guilder | ANG |  |  |  |
+| Kwanza | AOA |  |  |  |
+| Argentine Peso | ARS |  |  |  |
+| Australian Dollar | AUD |  |  |  |
+| Aruban Florin | AWG |  |  |  |
+| Azerbaijan Manat | AZN |  |  |  |
+| Convertible Mark | BAM |  |  |  |
+| Barbados Dollar | BBD |  |  |  |
+| Taka | BDT |  |  |  |
+| Bulgarian Lev | BGN |  |  |  |
+| Bahraini Dinar | BHD |  |  |  |
+| Burundi Franc | BIF |  |  |  |
+| Bermudian Dollar | BMD |  |  |  |
+| Brunei Dollar | BND |  |  |  |
+| Boliviano | BOB |  |  |  |
+| Brazilian Real | BRL |  |  |  |
+| Bahamian Dollar | BSD |  |  |  |
+| Ngultrum | BTN |  |  |  |
+| Pula | BWP |  |  |  |
+| Belarusian Ruble | BYN |  |  |  |
+| Belize Dollar | BZD |  |  |  |
+| Canadian Dollar | CAD |  |  |  |
+| Congolese Franc | CDF |  |  |  |
+| Swiss Franc | CHF |  |  |  |
+| Chilean Peso | CLP |  |  |  |
+| Yuan Renminbi | CNY |  |  |  |
+| Colombian Peso | COP |  |  |  |
+| Costa Rican Colon | CRC |  |  |  |
+| Peso Convertible | CUC |  |  |  |
+| Cuban Peso | CUP |  |  |  |
+| Cabo Verde Escudo | CVE |  |  |  |
+| Czech Koruna | CZK |  |  |  |
+| Djibouti Franc | DJF |  |  |  |
+| Danish Krone | DKK |  |  |  |
+| Dominican Peso | DOP |  |  |  |
+| Algerian Dinar | DZD |  |  |  |
+| Egyptian Pound | EGP |  |  |  |
+| Nakfa | ERN |  |  |  |
+| Ethiopian Birr | ETB |  |  |  |
+| Euro | EUR |  |  |  |
+|  |  |  |  |  |
 
 ```julia
-@currencyunit BRL    BrazilianReal
-@currencyunit BSD    BahamianDollar
-@currencyunit BTN    Ngultrum
-@currencyunit BWP    Pula
-@currencyunit BYN    BelarusianRuble
-@currencyunit BZD    BelizeDollar
-@currencyunit CAD    CanadianDollar
-@currencyunit CDF    CongoleseFranc
-@currencyunit CHF    SwissFranc
-@currencyunit CHF    SwissFranc
-@currencyunit CLP    ChileanPeso
-@currencyunit CNY    YuanRenminbi
-@currencyunit COP    ColombianPeso
-@currencyunit CRC    CostaRicanColon
-@currencyunit CUC    PesoConvertible
-@currencyunit CUP    CubanPeso
-@currencyunit CVE    CaboVerdeEscudo
-@currencyunit CZK    CzechKoruna
-@currencyunit DJF    DjiboutiFranc
-@currencyunit DKK    DanishKrone
-@currencyunit DOP    DominicanPeso
-@currencyunit DZD    AlgerianDinar
-@currencyunit EGP    EgyptianPound
-@currencyunit ERN    Nakfa
-@currencyunit ETB    EthiopianBirr
-@currencyunit EUR    Euro
 @currencyunit FJD    FijiDollar
 @currencyunit GBP    PoundSterling
 @currencyunit GEL    Lari
