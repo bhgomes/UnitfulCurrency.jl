@@ -24,173 +24,68 @@ See [Unitful.jl](https://github.com/PainterQubits/Unitful.jl) documentation for 
 
 The following fiat currencies are available:
 
-| Currency | Code |   | Currency | Code |
-|----------|:----:|:-:|----------|:----:|
-| United Arab Emirates Dirham | AED |  |  |  |
-| Afghani | AFN |  |  |  |
-| Lek | ALL |  |  |  |
-| Armenian Dram | AMD |  |  |  |
-| Netherlands Antillean Guilder | ANG |  |  |  |
-| Kwanza | AOA |  |  |  |
-| Argentine Peso | ARS |  |  |  |
-| Australian Dollar | AUD |  |  |  |
-| Aruban Florin | AWG |  |  |  |
-| Azerbaijan Manat | AZN |  |  |  |
-| Convertible Mark | BAM |  |  |  |
-| Barbados Dollar | BBD |  |  |  |
-| Taka | BDT |  |  |  |
-| Bulgarian Lev | BGN |  |  |  |
-| Bahraini Dinar | BHD |  |  |  |
-| Burundi Franc | BIF |  |  |  |
-| Bermudian Dollar | BMD |  |  |  |
-| Brunei Dollar | BND |  |  |  |
-| Boliviano | BOB |  |  |  |
-| Brazilian Real | BRL |  |  |  |
-| Bahamian Dollar | BSD |  |  |  |
-| Ngultrum | BTN |  |  |  |
-| Pula | BWP |  |  |  |
-| Belarusian Ruble | BYN |  |  |  |
-| Belize Dollar | BZD |  |  |  |
-| Canadian Dollar | CAD |  |  |  |
-| Congolese Franc | CDF |  |  |  |
-| Swiss Franc | CHF |  |  |  |
-| Chilean Peso | CLP |  |  |  |
-| Yuan Renminbi | CNY |  |  |  |
-| Colombian Peso | COP |  |  |  |
-| Costa Rican Colon | CRC |  |  |  |
-| Peso Convertible | CUC |  |  |  |
-| Cuban Peso | CUP |  |  |  |
-| Cabo Verde Escudo | CVE |  |  |  |
-| Czech Koruna | CZK |  |  |  |
-| Djibouti Franc | DJF |  |  |  |
-| Danish Krone | DKK |  |  |  |
-| Dominican Peso | DOP |  |  |  |
-| Algerian Dinar | DZD |  |  |  |
-| Egyptian Pound | EGP |  |  |  |
-| Nakfa | ERN |  |  |  |
-| Ethiopian Birr | ETB |  |  |  |
-| Euro | EUR |  |  |  |
-|  |  |  |  |  |
-
-```julia
-@currencyunit FJD    FijiDollar
-@currencyunit GBP    PoundSterling
-@currencyunit GEL    Lari
-@currencyunit GHS    GhanaCedi
-@currencyunit GIP    GibraltarPound
-@currencyunit GMD    Dalasi
-@currencyunit GNF    GuineanFranc
-@currencyunit GTQ    Quetzal
-@currencyunit GYD    GuyanaDollar
-@currencyunit HKD    HongKongDollar
-@currencyunit HNL    Lempira
-@currencyunit HRK    Kuna
-@currencyunit HTGUSD GourdeUSDollar
-@currencyunit HUF    Forint
-@currencyunit IDR    Rupiah
-@currencyunit ILS    NewIsraeliSheqel
-@currencyunit INR    IndianRupee
-@currencyunit IQD    IraqiDinar
-@currencyunit IRR    IranianRial
-@currencyunit ISK    IcelandKrona
-@currencyunit JMD    JamaicanDollar
-@currencyunit JOD    JordanianDinar
-@currencyunit JPY    Yen
-@currencyunit KES    KenyanShilling
-@currencyunit KGS    Som
-@currencyunit KHR    Riel
-@currencyunit KMF    ComorianFranc
-@currencyunit KPW    NorthKoreanWon
-@currencyunit KRW    Won
-@currencyunit KWD    KuwaitiDinar
-@currencyunit KZT    Tenge
-@currencyunit LAK    LaoKip
-@currencyunit LBP    LebanesePound
-@currencyunit LKR    SriLankaRupee
-@currencyunit LRD    LiberianDollar
-@currencyunit LSLZAR LotiRand
-@currencyunit LYD    LibyanDinar
-@currencyunit MAD    MoroccanDirham
-@currencyunit MDL    MoldovanLeu
-@currencyunit MGA    MalagasyAriary
-@currencyunit MKD    Denar
-@currencyunit MMK    Kyat
-@currencyunit MNT    Tugrik
-@currencyunit MOP    Pataca
-@currencyunit MRO    Ouguiya
-@currencyunit MUR    MauritiusRupee
-@currencyunit MVR    Rufiyaa
-@currencyunit MWK    MalawiKwacha
-@currencyunit MXN    MexicanPeso
-@currencyunit MYR    MalaysianRinggit
-@currencyunit MZN    MozambiqueMetical
-@currencyunit NADZAR NamibiaDollarRand
-@currencyunit NGN    Naira
-@currencyunit NIO    CordobaOro
-@currencyunit NOK    NorwegianKrone
-@currencyunit NPR    NepaleseRupee
-@currencyunit NZD    NewZealandDollar
-@currencyunit OMR    RialOmani
-@currencyunit PABUSD BalboaUSDollar
-@currencyunit PEN    Sol
-@currencyunit PGK    Kina
-@currencyunit PHP    PhilippinePiso
-@currencyunit PKR    PakistanRupee
-@currencyunit PLN    Zloty
-@currencyunit PYG    Guarani
-@currencyunit QAR    QatariRial
-@currencyunit RON    RomanianLeu
-@currencyunit RSD    SerbianDinar
-@currencyunit RUB    RussianRuble
-@currencyunit RWF    RwandaFranc
-@currencyunit SAR    SaudiRiyal
-@currencyunit SBD    SolomonIslandsDollar
-@currencyunit SCR    SeychellesRupee
-@currencyunit SDG    SudanesePound
-@currencyunit SEK    SwedishKrona
-@currencyunit SGD    SingaporeDollar
-@currencyunit SHP    SaintHelenaPound
-@currencyunit SLL    Leone
-@currencyunit SOS    SomaliShilling
-@currencyunit SRD    SurinamDollar
-@currencyunit SSP    SouthSudanesePound
-@currencyunit STD    Dobra
-@currencyunit SVC    ElSalvadorColon
-@currencyunit SYP    SyrianPound
-@currencyunit SZL    Lilangeni
-@currencyunit THB    Baht
-@currencyunit TJS    Somoni
-@currencyunit TMT    TurkmenistanNewManat
-@currencyunit TND    TunisianDinar
-@currencyunit TOP    Paanga                       # Pa\u2019anga
-@currencyunit TRY    TurkishLira
-@currencyunit TTD    TrinidadandTobagoDollar
-@currencyunit TZS    TanzanianShilling
-@currencyunit UAH    Hryvnia
-@currencyunit UGX    UgandaShilling
-@currencyunit USD    USDollar
-@currencyunit UYU    PesoUruguayo
-@currencyunit UZS    UzbekistanSum
-@currencyunit VEF    Bolivar                      # Bol\u00edvar
-@currencyunit VND    Dong
-@currencyunit VUV    Vatu
-@currencyunit WST    Tala
-@currencyunit XAF    CFAFrancBEAC
-@currencyunit XCD    EastCaribbeanDollar
-@currencyunit XOF    CFAFrancBCEAO
-@currencyunit XPF    CFPFranc
-@currencyunit XYD    CaymanIslandsDollar
-@currencyunit YER    YemeniRial
-@currencyunit ZAR    Rand
-@currencyunit ZMW    ZambianKwacha
-@currencyunit ZWL    ZimbabweDollar
-```
+| Currency | Code |   | Currency | Code |   | Currency | Code |
+|----------|:----:|:-:|----------|:----:|:-:|----------|:----:|
+| United Arab Emirates Dirham | AED || Guyana Dollar | GYD || Kina | PGK |
+| Afghani | AFN || Hong Kong Dollar | HKD || Philippine Piso | PHP |
+| Lek | ALL || Lempira | HNL || Pakistan Rupee | PKR |
+| Armenian Dram | AMD || Kuna | HRK || Zloty | PLN |
+| Netherlands Antillean Guilder | ANG || Gourde US Dollar | HTGUSD || Guarani | PYG |
+| Kwanza | AOA || Forint | HUF || Qatari Rial | QAR |
+| Argentine Peso | ARS || Rupiah | IDR || Romanian Leu | RON |
+| Australian Dollar | AUD || New Israeli Sheqel | ILS || Serbian Dinar | RSD |
+| Aruban Florin | AWG || IndianRupee | INR || Russian Ruble | RUB |
+| Azerbaijan Manat | AZN || Iraqi Dinar | IQD || Rwanda Franc | RWF |
+| Convertible Mark | BAM || Iranian Rial | IRR || Saudi Riyal | SAR |
+| Barbados Dollar | BBD || Iceland Krona | ISK || Solomon Islands Dollar | SBD |
+| Taka | BDT || Jamaican Dollar | JMD || Seychelles Rupee | SCR |
+| Bulgarian Lev | BGN || Jordanian Dinar | JOD || Sudanese Pound | SDG |
+| Bahraini Dinar | BHD || Yen | JPY || Swedish Krona | SEK |
+| Burundi Franc | BIF || Kenyan Shilling | KES || Singapore Dollar | SGD |
+| Bermudian Dollar | BMD || Som | KGS || Saint Helena Pound | SHP |
+| Brunei Dollar | BND || Riel | KHR || Leone | SLL |
+| Boliviano | BOB || Comorian Franc | KMF || Somali Shilling | SOS |
+| Brazilian Real | BRL || North Korean Won | KPW || Surinam Dollar | SRD |
+| Bahamian Dollar | BSD || Won | KRW || South Sudanese Pound | SSP |
+| Ngultrum | BTN || Kuwaiti Dinar | KWD || Dobra | STD |
+| Pula | BWP || Tenge | KZT || El Salvador Colon | SVC |
+| Belarusian Ruble | BYN || Lao Kip | LAK || Syrian Pound | SYP |
+| Belize Dollar | BZD || Lebanese Pound | LBP || Lilangeni | SZL |
+| Canadian Dollar | CAD || Sri Lanka Rupee | LKR || Baht | THB |
+| Congolese Franc | CDF || Liberian Dollar | LRD || Somoni | TJS |
+| Swiss Franc | CHF || Loti Rand | LSLZAR || Turkmenistan New Manat | TMT |
+| Chilean Peso | CLP || LibyanDinar | LYD || Tunisian Dinar | TND |
+| Yuan Renminbi | CNY || Moroccan Dirham | MAD || Paanga | TOP |
+| Colombian Peso | COP || Moldovan Leu | MDL || Turkish Lira | TRY |
+| Costa Rican Colon | CRC || Malagasy Ariary | MGA || Trinidadand Tobago Dollar | TTD |
+| Peso Convertible | CUC || Denar | MKD || Tanzanian Shilling | TZS |
+| Cuban Peso | CUP || Kyat | MMK || Hryvnia | UAH |
+| Cabo Verde Escudo | CVE || Tugrik | MNT || Uganda Shilling | UGX |
+| Czech Koruna | CZK || Pataca | MOP || United States Dollar | USD |
+| Djibouti Franc | DJF || Ouguiya | MRO || Peso Uruguayo | UYU |
+| Danish Krone | DKK || Mauritius Rupee | MUR || Uzbekistan Sum | UZS |
+| Dominican Peso | DOP || Rufiyaa | MVR || Bolivar | VEF |
+| Algerian Dinar | DZD || Malawi Kwacha | MWK || Dong | VND |
+| Egyptian Pound | EGP || Mexican Peso | MXN || Vatu | VUV |
+| Nakfa | ERN || Malaysian Ringgit | MYR || Tala | WST |
+| Ethiopian Birr | ETB || Mozambique Metical | MZN || CFA Franc BEAC | XAF |
+| Euro | EUR || Namibia Dollar Rand | NADZAR || East Caribbean Dollar | XCD |
+| Fiji Dollar | FJD || Naira | NGN || CFA Franc BCEAO | XOF |
+| Pound Sterling | GBP || Cordoba Oro | NIO || CFP Franc | XPF |
+| Lari | GEL || Norwegian Krone | NOK || Cayman Islands Dollar | XYD |
+| Ghana Cedi | GHS || Nepalese Rupee | NPR || Yemeni Rial | YER |
+| Gibraltar Pound | GIP || New Zealand Dollar | NZD || Rand | ZAR |
+| Dalasi | GMD || Rial Omani | OMR || Zambian Kwacha | ZMW |
+| Guinean Franc | GNF || Balboa US Dollar | PABUSD || Zimbabwe Dollar | ZWL |
+| Quetzal | GTQ || Sol | PEN ||  |  |
 
 ## Crypto Currencies
 
 The following cryptocurrencies are available:
 
+<div align="center>
 **WIP**
+</div>
 
 ---
 <div align="center">
