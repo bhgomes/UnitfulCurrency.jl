@@ -1,6 +1,8 @@
 # src/fiat.jl
 # Fiat Currencies
 
+export USD, EUR, GBP
+
 @currencyunit AED    UAEDirham
 @currencyunit AFN    Afghani
 @currencyunit ALL    Lek

@@ -1,6 +1,8 @@
 # src/crypto.jl
 # Crypto Currencies
 
+export BTC, ETH, XRP, BCH, USDT, LTC, EOS
+
 @currencyunit AAC AcuteAngleCloud
 @currencyunit ABA EcoBall
 @currencyunit ABAO AladdinGalaxy

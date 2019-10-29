@@ -10,18 +10,24 @@ module UnitfulCurrency
 
 using Unitful
 
-export CURRENCY
+export CURRENCY, Currency, CurrencyFreeUnits, CurrencyUnits, @currencyunit
 
 @dimension CURRENCY "CURRENCY" Currency
 
+
+"""
+"""
 macro currencyunit(code, name)
     abbreviation = String(code)
     esc(quote Unitful.@refunit $code $abbreviation $name CURRENCY false end)
     # FIXME: allow base10 prefixes
 end
 
+
 include("fiat.jl")
 include("crypto.jl")
+include("pair.jl")
+
 
 const localunits = Unitful.basefactors
 const localpromotion = Unitful.promotion
