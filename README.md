@@ -6,7 +6,7 @@
 [![Latest Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://bhgomes.github.io/UnitfulCurrency.jl/latest)
 [![Travis Build Status](https://travis-ci.com/bhgomes/UnitfulCurrency.jl.svg?branch=master)](https://travis-ci.com/bhgomes/UnitfulCurrency.jl)
 
-_Currencies as Units_
+_Currencies as Units!_
 
 </div>
 
@@ -18,7 +18,16 @@ To add custom currencies, use the `currencyunit` macro:
 @currencyunit SYM NewCurrencyName
 ```
 
-See [Unitful.jl](https://github.com/PainterQubits/Unitful.jl) documentation for more details on custom units.
+See [Unitful.jl](https://github.com/PainterQubits/Unitful.jl) documentation for more detail on custom units.
+
+## Currency Pairs / Markets
+
+To define currency pairs (or currency markets), use the `CurrencyPair` (or `CurrencyMarket`) type:
+
+```julia
+CurrencyPair(EUR, USD)
+CurrencyMarket(EUR, USD, 1.0126)
+```
 
 ## Fiat Currencies
 
