@@ -5,10 +5,21 @@
 [![Stable Docs](https://img.shields.io/badge/docs-stable-blue.svg)](https://bhgomes.github.io/UnitfulCurrency.jl/stable)
 [![Latest Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://bhgomes.github.io/UnitfulCurrency.jl/latest)
 [![Travis Build Status](https://travis-ci.com/bhgomes/UnitfulCurrency.jl.svg?branch=master)](https://travis-ci.com/bhgomes/UnitfulCurrency.jl)
+[![Build status](https://ci.appveyor.com/api/projects/status/ibdhlexgugg94nx6?svg=true)](https://ci.appveyor.com/project/bhgomes/unitfulcurrency-jl)
+[![Formatting](https://img.shields.io/badge/format-tab%204%20margin%2096-888)](https://github.com/domluna/JuliaFormatter.jl)
+[![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black)](https://github.com/bhgomes/UnitfulCurrency.jl)
 
 _Currencies as Units!_
 
 </div>
+
+## Installation
+
+To install open a Julia REPL and type:
+
+```julia
+]add UnitfulCurrency
+```
 
 ## Adding Custom Currencies
 
