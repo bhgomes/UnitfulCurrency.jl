@@ -1,33 +1,22 @@
-# UnitfulCurrency.jl
-# Brandon H Gomes (@bhgomes)
+# src/UnitfulCurrency.jl
+# Currencies as Units!
 
 __precompile__(true)
 
-"""
+"""```
+module UnitfulCurrency
+```
 Currencies as Units!
+See https://github.com/bhgomes/UnitfulCurrency.jl for more details.
 """
 module UnitfulCurrency
 
-using Unitful
+using Unitful, Reexport
 
-export CURRENCY, Currency, CurrencyFreeUnits, CurrencyUnits, @currencyunit
-
-@dimension CURRENCY "CURRENCY" Currency
-
-
-"""
-"""
-macro currencyunit(code, name)
-    abbreviation = String(code)
-    esc(quote Unitful.@refunit $code $abbreviation $name CURRENCY false end)
-    # FIXME: allow base10 prefixes
-end
-
-
+include("core.jl")
 include("fiat.jl")
 include("crypto.jl")
 include("pair.jl")
-
 
 const localunits = Unitful.basefactors
 const localpromotion = Unitful.promotion

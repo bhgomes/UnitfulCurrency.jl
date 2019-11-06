@@ -10,6 +10,14 @@ _Currencies as Units!_
 
 </div>
 
+## Installation
+
+To install, open a Julia REPL and run the following:
+
+```julia
+]add UnitfulCurrency.jl
+```
+
 ## Adding Custom Currencies
 
 To add custom currencies, use the `currencyunit` macro:

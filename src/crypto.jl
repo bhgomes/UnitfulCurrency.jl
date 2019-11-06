@@ -1,6 +1,13 @@
 # src/crypto.jl
 # Crypto Currencies
 
+export c
+
+@reexport module c
+
+using Unitful
+using .._unitfulcurrency
+
 export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 
 @currencyunit AAC AcuteAngleCloud
@@ -347,7 +354,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit BIXCPRO BIXCPRO
 @currencyunit BIZ BIZAINToken
 @currencyunit BKB BitkerToken
-@currencyunit BKBT BeeKan/Beenews
+@currencyunit BKBT BeeKan / Beenews
 @currencyunit BKF BKEXFinance
 @currencyunit BKK BKEXToken
 @currencyunit BKT BetKingToken
@@ -381,6 +388,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit BNANA BananaToken
 @currencyunit BNB BinanceCoin
 @currencyunit BNC Bionic
+@currencyunit BND Blocknode
 @currencyunit BNFT BlockchainBenefits
 @currencyunit BNK Bankera
 @currencyunit BNL BusinessChain
@@ -388,6 +396,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit BNT BancorNetworkToken
 @currencyunit BNTY Bounty0x
 @currencyunit BOAT BOAT
+@currencyunit BOB BobsRepair
 @currencyunit BOC BingoCoin
 @currencyunit BOCAI BOCAI
 @currencyunit BOE BodhiETH
@@ -428,6 +437,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit BRZC Breezecoin
 @currencyunit BRZX BraziliexToken
 @currencyunit BSC BowsCoin
+@currencyunit BSD BitSend
 @currencyunit BSH BitcoinStash
 @currencyunit BSHN Bitnewcoin
 @currencyunit BSM Bitsum
@@ -474,6 +484,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit BTM Bytom
 @currencyunit BTMC BitMinerChain
 @currencyunit BTMX BitmaxToken
+@currencyunit BTN BitNewChain
 @currencyunit BTNT BitNautic
 @currencyunit BTO Bottos
 @currencyunit BTOR Bittorium
@@ -879,7 +890,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit DMB DigitalMoneyBits
 @currencyunit DMC DynamicCoin
 @currencyunit DMD Diamond
-@currencyunit DMHCO DanielMarkHarrison&Company
+@currencyunit DMHCO DanielMarkHarrison & Company
 @currencyunit DML DecentralizedMachineLearningProtocol
 @currencyunit DMME dmme
 @currencyunit DMT DMarket
@@ -1232,7 +1243,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit FST Fastcoin
 @currencyunit FSTX FrostbyteCoin
 @currencyunit FTB Feitebi
-@currencyunit FTBC Film&TelevisionBlockchain
+@currencyunit FTBC Film & TelevisionBlockchain
 @currencyunit FTC Feathercoin
 @currencyunit FTEC FTEC
 @currencyunit FTH FITCASH
@@ -1688,6 +1699,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit KEOS KEOS
 @currencyunit KETO KETOsisCoin
 @currencyunit KGLD KAZUGOLD
+@currencyunit KGS KINGSCOIN
 @currencyunit KICK KickCoin
 @currencyunit KIN Kin
 @currencyunit KIND KindAdsToken
@@ -1873,6 +1885,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit LZE LYZE
 @currencyunit M MChain
 @currencyunit M2O M2O
+@currencyunit MAD MADNetworkToken
 @currencyunit MAGE MagicCoin
 @currencyunit MAGN Magnetcoin
 @currencyunit MAID MaidSafeCoin
@@ -1997,6 +2010,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit MNP MNPCoin
 @currencyunit MNPR MNPRO
 @currencyunit MNRRI MINERRI
+@currencyunit MNT MNTracker
 @currencyunit MNTP Goldmint
 @currencyunit MNX MinexCoin
 @currencyunit MOAC MOAC
@@ -2053,6 +2067,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit MTX MATRYX
 @currencyunit MUE MonetaryUnit
 @currencyunit MUN MUNcoin
+@currencyunit MUR Murmur
 @currencyunit MUSIC Musicoin
 @currencyunit MUSK Musk
 @currencyunit MUXE MUXE
@@ -2125,6 +2140,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit NIKO NIKO
 @currencyunit NILU Nilu
 @currencyunit NIM Nimiq
+@currencyunit NIO Autonio
 @currencyunit NIX NIX
 @currencyunit NKA IncaKoin
 @currencyunit NKC Nework
@@ -2658,6 +2674,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit SAY SpherePay
 @currencyunit SBA SimplyBrand
 @currencyunit SBC StrikeBitClub
+@currencyunit SBD SteemDollars
 @currencyunit SBIT Stackbit
 @currencyunit SC Siacoin
 @currencyunit SCA SiaClassic
@@ -2670,6 +2687,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit SCOL Scolcoin
 @currencyunit SCORE Scorecoin
 @currencyunit SCP SiaPrimeCoin
+@currencyunit SCR Scorum
 @currencyunit SCRIBE Scribe
 @currencyunit SCRIV SCRIV
 @currencyunit SCRL ScrollToken
@@ -3017,6 +3035,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit TLX Telex
 @currencyunit TMB TemboCoin
 @currencyunit TMN TranslateMeNetworkToken
+@currencyunit TMT Traxia
 @currencyunit TMTG TheMidasTouchGold
 @currencyunit TN TurtleNode
 @currencyunit TNB TimeNewBank
@@ -3035,6 +3054,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit TOL Tolar
 @currencyunit TOMO TomoChain
 @currencyunit TOOK TOOKTOOK
+@currencyunit TOP TOPNetwork
 @currencyunit TOPB TOPBTCToken
 @currencyunit TOPC TopChain
 @currencyunit TOR Torcoin
@@ -3114,6 +3134,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit TYPE Typerium
 @currencyunit TYT TianyaToken
 @currencyunit TZC TrezarCoin
+@currencyunit UAH UAHPay
 @currencyunit UBC UbcoinMarket
 @currencyunit UBEX Ubex
 @currencyunit UBQ Ubiq
@@ -3391,10 +3412,12 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit XBR BitDinero
 @currencyunit XBRC BitRewards
 @currencyunit XBS BitStake
+@currencyunit XBT Bricktox
 @currencyunit XBX BitexGlobalXBXCoin
 @currencyunit XBY XtraBYtes
 @currencyunit XC XCurrency
 @currencyunit XCASH XCASH
+@currencyunit XCD Capdax
 @currencyunit XCE Cerium
 @currencyunit XCEL XcelToken
 @currencyunit XCG Xchange
@@ -3614,26 +3637,11 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 @currencyunit ZXT ZhixinChain
 @currencyunit ZZC ZoZoCoin
 
+
 # TODO:
 # The following need to be renamed to make sure there are no conflicts with
-# other currencies (FIXME means fiat conflict, TODO means crypto conflict).
+# other currencies and that they can be properly written in Julia.
 
-#FIXME: @currencyunit BND Blocknode
-#FIXME: @currencyunit BOB Bob'sRepair
-#FIXME: @currencyunit BSD BitSend
-#FIXME: @currencyunit BTN BitNewChain
-#FIXME: @currencyunit KGS KINGSCOIN
-#FIXME: @currencyunit MAD MADNetworkToken
-#FIXME: @currencyunit MNT MNTracker
-#FIXME: @currencyunit MUR Murmur
-#FIXME: @currencyunit NIO Autonio
-#FIXME: @currencyunit SBD SteemDollars
-#FIXME: @currencyunit SCR Scorum
-#FIXME: @currencyunit TMT Traxia
-#FIXME: @currencyunit TOP TOPNetwork
-#FIXME: @currencyunit UAH UAHPay
-#FIXME: @currencyunit XBT Bricktox
-#FIXME: @currencyunit XCD Capdax
 #TODO: @currencyunit $$$ Money
 #TODO: @currencyunit $PAC PACcoin
 #TODO: @currencyunit 0XBTC 0xBitcoin
@@ -4172,8 +4180,8 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit ONE MenloOne
 #TODO: @currencyunit ONE One
 #TODO: @currencyunit ONG OntologyGas
-#TODO: @currencyunit ONG onG.social
-#TODO: @currencyunit ONL On.Live
+#TODO: @currencyunit ONG onGsocial
+#TODO: @currencyunit ONL OnLive
 #TODO: @currencyunit ORS ORSGroup
 #TODO: @currencyunit ORS OriginSport
 #TODO: @currencyunit OSC OasisCity
@@ -4198,7 +4206,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit PLC PlatinCoin
 #TODO: @currencyunit PLC Polcoin
 #TODO: @currencyunit POE Po.et
-#TODO: @currencyunit POK Poker.io
+#TODO: @currencyunit POK Poker_io
 #TODO: @currencyunit POP PopChestToken
 #TODO: @currencyunit POP PopularCoin
 #TODO: @currencyunit POS POSCoin
@@ -4233,7 +4241,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit RRC RRChain
 #TODO: @currencyunit RRC RRSpace
 #TODO: @currencyunit RRC RoyalRadioCash
-#TODO: @currencyunit RSP Real-estateSalesPlatform
+#TODO: @currencyunit RSP RealestateSalesPlatform
 #TODO: @currencyunit RSP RespawnCoin
 #TODO: @currencyunit RTH Rotharium
 #TODO: @currencyunit RTH Rutheneum
@@ -4275,8 +4283,8 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit SMT SunMoney
 #TODO: @currencyunit SND Sandcoin
 #TODO: @currencyunit SND SnodeCoin
-#TODO: @currencyunit SNOV Snovian.Space
-#TODO: @currencyunit SOLVE Solve.Care
+#TODO: @currencyunit SNOV SnovianSpace
+#TODO: @currencyunit SOLVE SolveCare
 #TODO: @currencyunit SOUL CryptoSoul
 #TODO: @currencyunit SOUL Phantasma
 #TODO: @currencyunit SPD SPINDLE
@@ -4284,7 +4292,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit SPN Sapien
 #TODO: @currencyunit SPN SpartanCoin
 #TODO: @currencyunit SSP Smartshare
-#TODO: @currencyunit STC 2345StarCoin
+#TODO: @currencyunit STC _2345StarCoin
 #TODO: @currencyunit STC CoinStarter
 #TODO: @currencyunit STC StarChain
 #TODO: @currencyunit STC SynchrotronCoin
@@ -4295,7 +4303,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit SWC SwisscoinCash
 #TODO: @currencyunit SXDT Spectre.aiDividendToken
 #TODO: @currencyunit SXUT Spectre.aiUtilityToken
-#TODO: @currencyunit T9 9CoinToken
+#TODO: @currencyunit T9 _9CoinToken
 #TODO: @currencyunit TCH Tchain
 #TODO: @currencyunit TCH TeacherCoin
 #TODO: @currencyunit TCH Thorecash
@@ -4305,7 +4313,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit TDC TourDataChain
 #TODO: @currencyunit TDC TrafficDataCoin
 #TODO: @currencyunit TDC Trendercoin
-#TODO: @currencyunit TEU 300cubits
+#TODO: @currencyunit TEU _300cubits
 #TODO: @currencyunit TFC TheFreedomCoin
 #TODO: @currencyunit TFC TransferCoin
 #TODO: @currencyunit TFC TreasureFinancialCoin
@@ -4313,10 +4321,10 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit TGC Tigercoin
 #TODO: @currencyunit TIC ItitaniumCoin
 #TODO: @currencyunit TIC Thingschain
-#TODO: @currencyunit TIE Ties.DB
+#TODO: @currencyunit TIE TiesDB
 #TODO: @currencyunit TIT Titcoin
 #TODO: @currencyunit TIT TittieCoin
-#TODO: @currencyunit TKC TAN-KE
+#TODO: @currencyunit TKC TAN_KE
 #TODO: @currencyunit TKC TokenPlanets
 #TODO: @currencyunit TKC TurkeyChain
 #TODO: @currencyunit TMC Timicoin
@@ -4330,9 +4338,9 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit TSC TimeSpaceChain
 #TODO: @currencyunit TTT Tapcoin
 #TODO: @currencyunit TTT TrustNote
-#TODO: @currencyunit TTV TV-TWO
+#TODO: @currencyunit TTV TV_TWO
 #TODO: @currencyunit U Ucoin
-#TODO: @currencyunit UCASH U.CASH
+#TODO: @currencyunit UCASH U_CASH
 #TODO: @currencyunit UNC UniGame
 #TODO: @currencyunit UNC Unioncoin
 #TODO: @currencyunit USC USC
@@ -4341,7 +4349,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit UST UniversalShieldToken
 #TODO: @currencyunit UST Uservice
 #TODO: @currencyunit V Version
-#TODO: @currencyunit VAI Viola.AI
+#TODO: @currencyunit VAI ViolaAI
 #TODO: @currencyunit VIC VRICOIN
 #TODO: @currencyunit VIC Victorium
 #TODO: @currencyunit VIT ViceIndustryToken
@@ -4367,7 +4375,7 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit WOW Wownero
 #TODO: @currencyunit XBC BitcoinPlus
 #TODO: @currencyunit XBC XBlocks
-#TODO: @currencyunit XCT C-Bit
+#TODO: @currencyunit XCT CBit
 #TODO: @currencyunit XCT CCTime
 #TODO: @currencyunit XIN InfinityEconomics
 #TODO: @currencyunit XIN Mixin
@@ -4385,12 +4393,14 @@ export BTC, ETH, XRP, BCH, USDT, LTC, EOS
 #TODO: @currencyunit XSC XsCoin
 #TODO: @currencyunit XSD Seedcoin
 #TODO: @currencyunit XSD SounDAC
-#TODO: @currencyunit XT 6XToken
-#TODO: @currencyunit ZCN 0chain
+#TODO: @currencyunit XT _6XToken
+#TODO: @currencyunit ZCN _0chain
 #TODO: @currencyunit ZEON ZEONNetwork
 #TODO: @currencyunit ZEON Zeon
-#TODO: @currencyunit ZOC 01coin
-#TODO: @currencyunit ZRX 0x
+#TODO: @currencyunit ZOC _01coin
+#TODO: @currencyunit ZRX _0x
 #TODO: @currencyunit ZTC ZeTo
 #TODO: @currencyunit ZTC ZentCash
-#TODO: @currencyunit ZXC 0xcert
+#TODO: @currencyunit ZXC _0xcert
+
+end  # module c
