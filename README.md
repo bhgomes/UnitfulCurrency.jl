@@ -9,7 +9,6 @@
 [![Formatting](https://img.shields.io/badge/format-tab%204%20margin%2096-888)](https://github.com/domluna/JuliaFormatter.jl)
 [![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black)](https://github.com/bhgomes/UnitfulCurrency.jl)
 
-
 _Currencies as Units!_
 
 </div>
@@ -19,7 +18,7 @@ _Currencies as Units!_
 To install, open a Julia REPL and run the following:
 
 ```julia
-]add UnitfulCurrency.jl
+]add UnitfulCurrency
 ```
 
 ## Adding Custom Currencies
