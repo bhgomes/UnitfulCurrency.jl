@@ -7,7 +7,9 @@
 [![Travis Build Status](https://travis-ci.com/bhgomes/UnitfulCurrency.jl.svg?branch=master)](https://travis-ci.com/bhgomes/UnitfulCurrency.jl)
 [![Build status](https://ci.appveyor.com/api/projects/status/ibdhlexgugg94nx6?svg=true)](https://ci.appveyor.com/project/bhgomes/unitfulcurrency-jl)
 [![Formatting](https://img.shields.io/badge/format-tab%204%20margin%2096-888)](https://github.com/domluna/JuliaFormatter.jl)
+
 [![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black)](https://github.com/bhgomes/UnitfulCurrency.jl)
+[![DOI](https://zenodo.org/badge/217743691.svg)](https://zenodo.org/badge/latestdoi/217743691)
 
 _Currencies as Units!_
 
