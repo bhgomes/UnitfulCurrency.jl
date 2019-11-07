@@ -1,7 +1,7 @@
 name = "UnitfulCurrency"
 uuid = "f5cc5b76-f814-11e9-291c-a1ea2b8c31c6"
 authors = ["bhgomes <bhgomes.github@gmail.com>"]
-version = "0.2.0"
+version = "0.2.1"
 
 [deps]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
