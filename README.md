@@ -100,19 +100,3 @@ The following fiat currencies are available:
 | Dalasi | GMD || Rial Omani | OMR || Zambian Kwacha | ZMW |
 | Guinean Franc | GNF || Balboa US Dollar | PABUSD || Zimbabwe Dollar | ZWL |
 | Quetzal | GTQ || Sol | PEN ||  |  |
-
-## Crypto Currencies
-
-The following cryptocurrencies are available:
-
-| Currency | Code |   | Currency | Code |   | Currency | Code |
-|----------|:----:|:-:|----------|:----:|:-:|----------|:----:|
-|  |  ||  |  ||  |  |
-|  |  ||  |  ||  |  |
-
----
-<div align="center">
-
-#### [(UN)LICENSE](UNLICENSE)
-Knowledge is Freedom.
-</div>
